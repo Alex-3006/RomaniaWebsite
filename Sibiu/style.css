@@ -1,0 +1,84 @@
+/* Index */
+.li {
+  color: rgb(255, 72, 0);
+  font-size: 20px;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  width: 90%;
+  padding-left: 5rem;
+}
+
+/* Short Infos */
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infotable {
+  text-decoration: none;
+  text-decoration-color: rosybrown;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+.images {
+  height: 250px;
+  width: 400px;
+}
+
+.img {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+/* Location */
+#map {
+  height: 150%;
+  width: 200%;
+}
+
+.map {
+  height: 300px;
+  width: 400px;
+}
+
+.txt {
+  font-weight: 300;
+}
+
+.back {
+  font-size: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+/* Population */
+.table {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Neighbothood */
+.inhalt1 {
+  display: flex;
+  justify-content: space-around;
+}

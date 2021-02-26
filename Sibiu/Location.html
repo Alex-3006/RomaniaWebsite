@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Location</title>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkclCCMPulXJKJCA4bVGypPLo2pKKsaLg&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css">
+      body {
+        background-color: rosybrown;
+      }
+
+      #map {
+        height: 150%;
+        width: 200%;
+      }
+
+      .map {
+        height: 300px;
+        width: 400px;
+      }
+    </style>
+    <script>
+      let map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 45.791244, lng: 24.149593 },
+          zoom: 10
+        });
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="titel">
+      <h1>Location</h1>
+    </div>
+    <br /><br /><br />
+    <div class="map">
+      <div id="map"></div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="txt">
+      <h3>
+        The Romanian name Sibiu derives from the city's Latin name of Cibinium,
+        which is also the source of the Cibin river's name. An archaic version
+        of the name is Sibiiu, while an obsolete folk name is Sâghii, also
+        spelled Sîghii. <br /><br />
+        In German, it is called Hermannstadt ("Hermann's city"), while in the
+        local Transylvanian Saxon dialect, it is known as Härmeschtat. Its
+        Hungarian name is Nagyszeben ("Big/Greater Sibiu"), or colloquially,
+        Szeben.
+        <br /><br />
+        A number of other languages also have their own variants of the city's
+        name, like Czech Sibiň, Polish Sybin, Serbo-Croatian Sibinj and the
+        proposed Esperanto name of Sibio.
+      </h3>
+    </div>
+    <br /><br /><br />
+    <a href="index.html" class="back">Back to homepage</a>
+  </body>
+</html>
